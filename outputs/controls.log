@@ -68,8 +68,8 @@ W1027 21:10:05.804000 82618 torch/distributed/elastic/multiprocessing/redirects.
 [59/60] random_direction@dose+0.5 joke      180ch (544s, eta 9s)
 [60/60] random_direction@dose+0.5 math        1ch (544s, eta 0s)
 Traceback (most recent call last):
-  File "/Users/w1ndys/steer-qwen/controls.py", line 187, in <module>
+  File "~/steer-qwen/controls.py", line 187, in <module>
     main()
-  File "/Users/w1ndys/steer-qwen/controls.py", line 171, in main
+  File "~/steer-qwen/controls.py", line 171, in main
     mdpath.write_text("\n".join(md), ensure_ascii=False)
 TypeError: Path.write_text() got an unexpected keyword argument 'ensure_ascii'

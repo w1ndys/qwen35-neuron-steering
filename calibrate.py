@@ -265,7 +265,8 @@ def main():
                                       "texts": texts}, ensure_ascii=False, indent=1))
 
     print("[3/3] 计算偏置表")
-    table = {"model": str(MODEL_DIR), "targets": [], "stats": stats, "delta": {}}
+    table = {"model": str(MODEL_DIR).replace(str(Path.home()), "~"),
+             "targets": [], "stats": stats, "delta": {}}
     for l in sorted(stats):
         s = stats[l]
         print(f"  L{l:02d}  median={s['median']:8.2f}  mean={s['mean']:8.2f}  "

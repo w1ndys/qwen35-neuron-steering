@@ -1,5 +1,5 @@
 {
- "model": "/Users/w1ndys/models/qwen3.5-4b",
+ "model": "~/models/qwen3.5-4b",
  "targets": [
   {
    "layer": 14,
