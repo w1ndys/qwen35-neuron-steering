@@ -1,0 +1,75 @@
+W1027 21:10:05.804000 82618 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+加载模型 …
+Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights: 100%|██████████| 426/426 [00:00<00:00, 10712.97it/s]
+就绪 4.4s
+随机对照用的神经元编号: L14 N2223, L13 N6340
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[1/60] recipe@dose+0.3        self       80ch (7s, eta 422s)
+[2/60] recipe@dose+0.3        trust     181ch (21s, eta 597s)
+[3/60] recipe@dose+0.3        bad        78ch (27s, eta 512s)
+[4/60] recipe@dose+0.3        control   176ch (40s, eta 566s)
+[5/60] recipe@dose+0.3        joke       53ch (46s, eta 508s)
+[6/60] recipe@dose+0.3        math        1ch (47s, eta 423s)
+[7/60] recipe@dose+0.4        self       58ch (51s, eta 389s)
+[8/60] recipe@dose+0.4        trust     185ch (65s, eta 421s)
+[9/60] recipe@dose+0.4        bad       167ch (78s, eta 443s)
+[10/60] recipe@dose+0.4        control   176ch (92s, eta 459s)
+[11/60] recipe@dose+0.4        joke       47ch (97s, eta 434s)
+[12/60] recipe@dose+0.4        math        1ch (98s, eta 393s)
+[13/60] recipe@dose+0.5        self       46ch (102s, eta 368s)
+[14/60] recipe@dose+0.5        trust     176ch (115s, eta 379s)
+[15/60] recipe@dose+0.5        bad        86ch (122s, eta 367s)
+[16/60] recipe@dose+0.5        control   172ch (136s, eta 374s)
+[17/60] recipe@dose+0.5        joke       74ch (144s, eta 363s)
+[18/60] recipe@dose+0.5        math        1ch (144s, eta 337s)
+[19/60] recipe@dose+0.65       self      184ch (158s, eta 341s)
+[20/60] recipe@dose+0.65       trust     178ch (172s, eta 344s)
+[21/60] recipe@dose+0.65       bad       193ch (186s, eta 345s)
+[22/60] recipe@dose+0.65       control   177ch (200s, eta 345s)
+[23/60] recipe@dose+0.65       joke      101ch (209s, eta 336s)
+[24/60] recipe@dose+0.65       math        5ch (210s, eta 315s)
+[25/60] recipe@dose+0.8        self      189ch (224s, eta 313s)
+[26/60] recipe@dose+0.8        trust     184ch (237s, eta 310s)
+[27/60] recipe@dose+0.8        bad       194ch (251s, eta 307s)
+[28/60] recipe@dose+0.8        control   165ch (264s, eta 302s)
+[29/60] recipe@dose+0.8        joke      147ch (278s, eta 297s)
+[30/60] recipe@dose+0.8        math      222ch (291s, eta 291s)
+[31/60] baseline@dose+0.5      self       76ch (298s, eta 279s)
+[32/60] baseline@dose+0.5      trust     181ch (312s, eta 273s)
+[33/60] baseline@dose+0.5      bad       106ch (320s, eta 262s)
+[34/60] baseline@dose+0.5      control   181ch (334s, eta 255s)
+[35/60] baseline@dose+0.5      joke       57ch (340s, eta 243s)
+[36/60] baseline@dose+0.5      math        1ch (341s, eta 227s)
+[37/60] only_L14@dose+0.5      self       77ch (347s, eta 216s)
+[38/60] only_L14@dose+0.5      trust     185ch (361s, eta 209s)
+[39/60] only_L14@dose+0.5      bad       154ch (372s, eta 201s)
+[40/60] only_L14@dose+0.5      control   175ch (386s, eta 193s)
+[41/60] only_L14@dose+0.5      joke       71ch (392s, eta 182s)
+[42/60] only_L14@dose+0.5      math        1ch (393s, eta 169s)
+[43/60] only_L13@dose+0.5      self       30ch (396s, eta 156s)
+[44/60] only_L13@dose+0.5      trust     198ch (409s, eta 149s)
+[45/60] only_L13@dose+0.5      bad       147ch (420s, eta 140s)
+[46/60] only_L13@dose+0.5      control   185ch (433s, eta 132s)
+[47/60] only_L13@dose+0.5      joke       50ch (438s, eta 121s)
+[48/60] only_L13@dose+0.5      math        1ch (439s, eta 110s)
+[49/60] random_neuron@dose+0.5 self       61ch (444s, eta 100s)
+[50/60] random_neuron@dose+0.5 trust     190ch (458s, eta 92s)
+[51/60] random_neuron@dose+0.5 bad       200ch (471s, eta 83s)
+[52/60] random_neuron@dose+0.5 control   188ch (483s, eta 74s)
+[53/60] random_neuron@dose+0.5 joke      183ch (494s, eta 65s)
+[54/60] random_neuron@dose+0.5 math        1ch (495s, eta 55s)
+[55/60] random_direction@dose+0.5 self       36ch (498s, eta 45s)
+[56/60] random_direction@dose+0.5 trust     190ch (509s, eta 36s)
+[57/60] random_direction@dose+0.5 bad       180ch (521s, eta 27s)
+[58/60] random_direction@dose+0.5 control   178ch (532s, eta 18s)
+[59/60] random_direction@dose+0.5 joke      180ch (544s, eta 9s)
+[60/60] random_direction@dose+0.5 math        1ch (544s, eta 0s)
+Traceback (most recent call last):
+  File "/Users/w1ndys/steer-qwen/controls.py", line 187, in <module>
+    main()
+  File "/Users/w1ndys/steer-qwen/controls.py", line 171, in main
+    mdpath.write_text("\n".join(md), ensure_ascii=False)
+TypeError: Path.write_text() got an unexpected keyword argument 'ensure_ascii'

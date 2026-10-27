@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 模型权重（8.7 GiB，不入库）
+models/
+*.safetensors
+*.bin
+*.gguf
+
+.DS_Store
+.ipynb_checkpoints/
